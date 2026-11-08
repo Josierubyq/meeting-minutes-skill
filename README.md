@@ -37,10 +37,10 @@
    curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
-2. 把这个仓库放进 Claude Code 的 skill 文件夹。在本页面点绿色的 **Code** 按钮,复制仓库地址,然后:
+2. 把这个仓库放进 Claude Code 的 skill 文件夹:
 
    ```bash
-   git clone <仓库地址> ~/.claude/skills/meeting-minutes
+   git clone https://github.com/Josierubyq/meeting-minutes-skill.git ~/.claude/skills/meeting-minutes
    ```
 
    不会用 git 也可以:点 **Code → Download ZIP**,解压后把文件夹改名为 `meeting-minutes`,放进 `~/.claude/skills/`(这是个隐藏文件夹,在 Finder 里按 `Cmd + Shift + .` 能看到)。
@@ -110,7 +110,7 @@ Speech recognition and speaker diarization run locally on your Mac (Whisper larg
 **Install:**
 
 ```bash
-git clone <this repo URL> ~/.claude/skills/meeting-minutes
+git clone https://github.com/Josierubyq/meeting-minutes-skill.git ~/.claude/skills/meeting-minutes
 bash ~/.claude/skills/meeting-minutes/scripts/setup.sh
 ```
 
